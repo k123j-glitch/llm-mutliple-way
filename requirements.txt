@@ -1,0 +1,14 @@
+# Use EXTRA-index-url so pip can still find normal packages on PyPI
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch
+torchvision
+torchaudio
+transformers
+datasets
+accelerate
+sentencepiece
+tqdm
+bitsandbytes
+peft
+scipy
